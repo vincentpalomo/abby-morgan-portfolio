@@ -1,6 +1,6 @@
-<p align='center'>
-# abby-morgan-portfolio
-</p>
+<h1 align='center'>
+abby-morgan-portfolio
+</h1>
 
 ### figma website layout
 
