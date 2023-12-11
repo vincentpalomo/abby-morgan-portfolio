@@ -7,12 +7,11 @@ import hamburger from '../assets/hamburger.png';
 const home = () => {
   return (
     <>
+      {/* web view */}
+
       <div className='hidden sm:block'>
         <div className='flex justify-center bg-forest-green'>
           <div className='bg-forest-green w-[1440px] h-screen relative'>
-            <div className='flex justify-center items-center h-40'>
-              <img className='h-16' src={logo} alt='logo' />
-            </div>
             <div className='flex justify-center'>
               <Navbar />
             </div>
@@ -29,15 +28,14 @@ const home = () => {
         </div>
       </div>
 
+      {/* mobile view */}
+
       <div className='flex justify-center bg-forest-green sm:hidden'>
         <div className='bg-forest-green w-[1440px] h-screen relative'>
           <div className='h-48 flex mx-10 justify-between items-center'>
             <img className=' h-16' src={logo} alt='logo' />
             <img className=' h-7' src={hamburger} alt='mobile menu' />
           </div>
-          {/* <div className="flex justify-center">
-           <Navbar />
-         </div> */}
 
           <h1 className='font-playfair text-center text-abby-pink text-6xl'>abby morgan</h1>
 
