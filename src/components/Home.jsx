@@ -31,7 +31,7 @@ const home = () => {
       {/* mobile view */}
 
       <div className='flex justify-center bg-forest-green sm:hidden'>
-        <div className='bg-forest-green w-[1440px] h-screen relative'>
+        <div className='bg-forest-green w-full h-screen relative'>
           <div className='h-48 flex mx-10 justify-between items-center'>
             <img className=' h-16' src={logo} alt='logo' />
             <img className=' h-7' src={hamburger} alt='mobile menu' />
