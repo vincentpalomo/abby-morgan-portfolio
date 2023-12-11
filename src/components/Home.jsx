@@ -20,10 +20,10 @@ const home = () => {
               <img className='h-[422px]' src={profileImg} alt='abby morgan' />
             </div>
 
-            <h1 className='absolute font-playfair text-abby-pink text-[128px] bottom-[100px] left-10'>abby</h1>
-            <h1 className='absolute font-playfair text-abby-pink text-[128px] bottom-0 left-10'>morgan</h1>
+            <h1 className='absolute font-playfair text-abby-pink text-[128px] bottom-[120px] left-10'>abby</h1>
+            <h1 className='absolute font-playfair text-abby-pink text-[128px] bottom-5 left-10'>morgan</h1>
 
-            <h3 className='absolute font-playfair text-off-white text-[64px] bottom-5 right-10'>software engineer</h3>
+            <h3 className='absolute font-playfair text-off-white text-[64px] bottom-10 right-10'>software engineer</h3>
           </div>
         </div>
       </div>
