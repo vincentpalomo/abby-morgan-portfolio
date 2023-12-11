@@ -6,23 +6,23 @@ import hamburger from '../assets/hamburger.png';
 
 const home = () => {
   return (
-    <div className="flex justify-center bg-forest-green">
-      <div className="bg-forest-green w-[1440px] h-screen relative">
-        <div className="flex justify-center items-center h-48">
-          <img className="h-20" src={logo} alt="logo" />
+    <div className='flex justify-center bg-forest-green'>
+      <div className='bg-forest-green w-[1440px] h-screen relative'>
+        <div className='flex justify-center items-center h-40'>
+          <img className='h-16' src={logo} alt='logo' />
         </div>
-        <div className="flex justify-center">
+        <div className='flex justify-center'>
           <Navbar />
         </div>
 
-        <div className="h-[450px] w-full flex justify-center">
-          <img className="h-[422px]" src={profileImg} alt="abby morgan" />
+        <div className='h-[450px] w-full flex justify-center'>
+          <img className='h-[422px]' src={profileImg} alt='abby morgan' />
         </div>
 
-        <h1 className="absolute font-playfair text-abby-pink text-[128px] bottom-[100px] left-10">abby</h1>
-        <h1 className="absolute font-playfair text-abby-pink text-[128px] bottom-0 left-10">morgan</h1>
+        <h1 className='absolute font-playfair text-abby-pink text-[128px] bottom-[100px] left-10'>abby</h1>
+        <h1 className='absolute font-playfair text-abby-pink text-[128px] bottom-0 left-10'>morgan</h1>
 
-        <h3 className="absolute font-playfair text-off-white text-[64px] bottom-5 right-10">software engineer</h3>
+        <h3 className='absolute font-playfair text-off-white text-[64px] bottom-5 right-10'>software engineer</h3>
       </div>
     </div>
 
