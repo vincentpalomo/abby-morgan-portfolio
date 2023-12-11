@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import { Home } from './components';
+import { About, Home } from './components';
 import './index.css';
 
 const App = () => {
@@ -10,6 +10,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
         </Routes>
       </BrowserRouter>
     </>
