@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import { About, Home } from './components';
+import { About, Home, Projects } from './components';
 import './index.css';
 
 const App = () => {
@@ -11,6 +11,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
+          <Route path='/projects' element={<Projects />} />
         </Routes>
       </BrowserRouter>
     </>
