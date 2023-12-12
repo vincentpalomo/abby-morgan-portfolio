@@ -6,9 +6,9 @@ const Navbar = () => {
   return (
     <>
       <div className='flex flex-col justify-center items-center'>
-        <div className='flex justify-center items-center h-40'>
+        <div className='flex justify-center items-center h-36'>
           <Link to='/'>
-            <img className='h-16' src={logo} alt='logo' />
+            <img className='h-[55px]' src={logo} alt='logo' />
           </Link>
         </div>
         <div className='font-playfair text-[34px] w-[500px] text-abby-pink flex justify-between '>

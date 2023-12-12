@@ -19,7 +19,7 @@ const About = () => {
             <div className='flex justify-center items-center gap-20'>
               <div className=''>
                 <div className='font-playfair italic text-[128px] text-off-white tracking-tighter'>hello</div>
-                <div className='font-roboto text-[20px] text-off-white tracking-tighter leading-7 w-[480px] h-[300px]'>
+                <div className='font-roboto text-[20px] text-off-white leading-7 w-[480px] h-[300px]'>
                   I'm a software engineer driven by a passion for innovation and problem-solving. With a growth mindset as my compass, I thrive on
                   challenges, viewing each one as an opportunity to expand my skills and knowledge. Adaptable and always eager to learn, I navigate
                   the dynamic landscape of technology with enthusiasm. My commitment to continuous improvement not only fuels my personal development
