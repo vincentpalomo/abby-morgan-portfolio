@@ -13,7 +13,9 @@ const Projects = () => {
             </div>
 
             <div className='w-full flex flex-col items-center justify-center'>
-              <img className='h-[450px] w-[450px] ' src={profileImg} alt='abby morgan' />
+              <div className='h-[450px] w-full flex justify-center'>
+                <img className='h-[422px]' src={profileImg} alt='abby morgan' />
+              </div>
               <h1 className='font-playfair text-off-white text-9xl tracking-tight'>under construction</h1>
             </div>
           </div>
