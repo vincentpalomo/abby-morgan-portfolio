@@ -2,8 +2,6 @@
 abby-morgan-portfolio
 </h1>
 
-#
-
 `live site`
 
 > https://abbymorgan.netlify.app/
