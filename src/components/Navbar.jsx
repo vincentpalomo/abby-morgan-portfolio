@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo centered.png';
 import hamburger from '../assets/hamburger.png';
 
 const Navbar = () => {
+  const [isOpen, toggleOpen] = useState(false);
+
+  const toggleMenu = () => {
+    console.log('open');
+    toggleOpen(!isOpen);
+  };
+
+  const closeMenu = () => {
+    toggleOpen(false);
+  };
+
   return (
     <>
       {/* web view */}
@@ -38,7 +49,18 @@ const Navbar = () => {
           <Link to='/'>
             <img className='h-16' src={logo} alt='logo' />
           </Link>
-          <img className='h-7 hover:cursor-pointer' src={hamburger} alt='mobile menu' />
+
+          <div className='absolute z-40'>
+            <button className={`fixed right-10 cursor-pointer ${isOpen}`} onClick={toggleMenu}>
+              <img className='h-7' src={hamburger} alt='mobile menu' />
+            </button>
+
+            {isOpen && (
+              <div className='bg-abby-pink fixed h-screen z-30'>
+                <div></div>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </>
