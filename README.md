@@ -26,3 +26,7 @@ abby-morgan-portfolio
 `todo`
 
 > implement mobile nav menu
+> issues with mobile nav menu:
+>
+> 1. styling
+> 2. missing logo
