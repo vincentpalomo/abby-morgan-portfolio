@@ -50,18 +50,31 @@ const Navbar = () => {
             <img className='h-16' src={logo} alt='logo' />
           </Link>
 
-          <div className='absolute z-40'>
-            <button className={`fixed right-10 cursor-pointer ${isOpen}`} onClick={toggleMenu}>
+          <div className=''>
+            <button className={`cursor-pointer ${isOpen}`} onClick={toggleMenu}>
               <img className='h-7' src={hamburger} alt='mobile menu' />
             </button>
-
-            {isOpen && (
-              <div className='bg-abby-pink fixed h-screen z-30'>
-                <div></div>
-              </div>
-            )}
           </div>
         </div>
+
+        {isOpen && (
+          <div className='bg-abby-pink fixed top-0 h-screen w-screen'>
+            <div className='h-screen flex flex-col justify-center items-center font-playfair text-forest-green text-[64px]'>
+              <Link className='hover:text-off-white' onClick={closeMenu} to='/'>
+                home
+              </Link>
+              <Link className='hover:text-off-white' onClick={closeMenu} to='/about'>
+                about
+              </Link>
+              <Link className='hover:text-off-white' onClick={closeMenu} to='/projects'>
+                projects
+              </Link>
+              <Link className='hover:text-off-white' onClick={closeMenu} to='/contact'>
+                contact
+              </Link>
+            </div>
+          </div>
+        )}
       </div>
     </>
   );
