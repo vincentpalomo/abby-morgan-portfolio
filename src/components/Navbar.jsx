@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo centered.png';
+import openLogo from '../assets/logo centered open.png';
 import hamburger from '../assets/hamburger.png';
 
 const Navbar = () => {
   const [isOpen, toggleOpen] = useState(false);
 
   const toggleMenu = () => {
-    console.log('open');
     toggleOpen(!isOpen);
   };
 
@@ -59,6 +59,10 @@ const Navbar = () => {
 
         {isOpen && (
           <div className='bg-abby-pink fixed top-0 z-40 h-screen w-screen'>
+            <Link className='w-screen flex justify-center top-36 absolute' to='/' onClick={closeMenu}>
+              <img className='h-16' src={openLogo} alt='logo' />
+            </Link>
+
             <div className='h-screen flex flex-col justify-center items-center font-playfair text-forest-green text-[64px]'>
               <Link className='hover:text-off-white' onClick={closeMenu} to='/'>
                 home
