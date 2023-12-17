@@ -58,7 +58,7 @@ const Navbar = () => {
         </div>
 
         {isOpen && (
-          <div className='bg-abby-pink fixed top-0 h-screen w-screen'>
+          <div className='bg-abby-pink fixed top-0 z-40 h-screen w-screen'>
             <div className='h-screen flex flex-col justify-center items-center font-playfair text-forest-green text-[64px]'>
               <Link className='hover:text-off-white' onClick={closeMenu} to='/'>
                 home
