@@ -45,18 +45,20 @@ const Contact = () => {
           </div> */}
           <Navbar />
 
-          <h1 className='font-playfair text-center text-off-white text-[96px]'>let's talk</h1>
+          <div className='flex flex-col justify-center h-1/2'>
+            <h1 className='font-playfair text-center text-off-white text-[96px]'>let's talk</h1>
 
-          <div className='flex justify-evenly items-center h-32'>
-            <Link to=''>
-              <img className='h-[75px]' src={linkedin} alt='LinkedIn link' />
-            </Link>
-            <Link to=''>
-              <img className='h-[75px]' src={email} alt='email link' />
-            </Link>
-            <Link to=''>
-              <img className='h-[75px]' src={github} alt='github link' />
-            </Link>
+            <div className='flex justify-evenly items-center h-32'>
+              <Link to=''>
+                <img className='h-[75px]' src={linkedin} alt='LinkedIn link' />
+              </Link>
+              <Link to=''>
+                <img className='h-[75px]' src={email} alt='email link' />
+              </Link>
+              <Link to=''>
+                <img className='h-[75px]' src={github} alt='github link' />
+              </Link>
+            </div>
           </div>
         </div>
       </div>
