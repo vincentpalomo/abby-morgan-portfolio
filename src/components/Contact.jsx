@@ -17,8 +17,8 @@ const Contact = () => {
           <div className="flex flex-col bg-forest-green h-screen w-[1440px]">
             <Navbar />
 
-            <div className="h-1/2 flex flex-col items-center justify-center">
-              <h1 className="font-playfair text-off-white text-9xl tracking-tight text-center">let's talk</h1>
+            <div className="h-2/3 flex flex-col items-center justify-center">
+              <h1 className="font-playfair text-off-white text-9xl tracking-tight text-center">let’s talk</h1>
               <div className="flex justify-evenly items-center h-44 w-1/3">
                 <Link to="">
                   <img className="h-[75px]" src={linkedin} alt="LinkedIn link" />
@@ -42,7 +42,7 @@ const Contact = () => {
           <Navbar />
 
           <div className="flex flex-col justify-center h-1/2">
-            <h1 className="font-playfair text-center text-off-white text-[96px]">let's talk</h1>
+            <h1 className="font-playfair text-center tracking-tighter text-off-white text-[96px]">let’s talk</h1>
 
             <div className="flex justify-evenly items-center h-32">
               <Link to="">
