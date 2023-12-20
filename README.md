@@ -27,3 +27,4 @@ abby-morgan-portfolio
 
 > update with projects
 > fix issues with ui
+> remove any unused code
