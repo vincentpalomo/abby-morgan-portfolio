@@ -24,3 +24,6 @@ abby-morgan-portfolio
 ![Alt text](assets/mobilenav.png)
 
 `todo`
+
+> update with projects
+> fix issues with ui
