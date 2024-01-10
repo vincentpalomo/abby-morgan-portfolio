@@ -30,3 +30,4 @@ abby-morgan-portfolio
 > remove any unused code
 > add animations
 > add links
+> upgrade to nextjs?
