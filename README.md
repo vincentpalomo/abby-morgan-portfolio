@@ -29,3 +29,4 @@ abby-morgan-portfolio
 > fix issues with ui
 > remove any unused code
 > add animations
+> add links
