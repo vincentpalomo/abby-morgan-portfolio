@@ -40,7 +40,7 @@ export default function Home() {
         className="flex min-h-screen flex-col items-center justify-between px-24 bg-offwhite text-offblack"
         id="home"
       >
-        <div className="fixed w-full px-24">
+        <div className="fixed sm:w-full w-[44vh] sm:px-24">
           <nav className="flex flex-row justify-between items-center font-lemurmure w-full text-3xl h-[5vh]">
             <div className="cursor-pointer" onClick={scrollToHome}>
               abby morgan
@@ -59,18 +59,23 @@ export default function Home() {
           </nav>
         </div>
         <div className="h-[50vh] flex items-center">
-          <div className="text-[45vh] font-lemurmure leading-3 mb-16">abby morgan</div>
+          <div className="2xl:text-[45vh] sm:text-[40vh] text-[23vh] font-lemurmure sm:leading-3 leading-[19vh] sm:mb-16">
+            abby morgan
+          </div>
         </div>
-        <div className="bg-offblack h-[50vh] w-full rounded-t-[20px] text-offwhite text-xl flex flex-col justify-end pl-5 pb-5">
+        <div className="bg-offblack h-[50vh] sm:w-full w-[95vw] rounded-t-[20px] text-offwhite text-xl flex flex-col justify-end pl-5 pb-5">
           <div className="font-roboto">software engineer</div>
           <div className="font-roboto">ui/ux designer</div>
         </div>
       </div>
 
       {/* about section */}
-      <div className="flex min-h-screen flex-col items-start justify-start px-24 bg-offwhite text-offblack" id="about">
-        <div className="font-lemurmure text-[400px]">about</div>
-        <p className="font-roboto text-xl tracking-widest w-[75%] mt-20 text-offgrey">
+      <div
+        className="flex min-h-screen flex-col items-start justify-start sm:px-24 pl-2 bg-offwhite text-offblack"
+        id="about"
+      >
+        <div className="font-lemurmure sm:text-[400px] text-[18vh] leading-[18vh] mt-24">about</div>
+        <p className="font-roboto sm:text-xl sm:tracking-widest tracking-[3px] sm:w-[75%] w-[90vw] sm:mt-20 mt-10 text-offgrey">
           I'm a software engineer driven by a passion for innovation and problem-solving. With a growth mindset as my
           compass, I thrive on challenges, viewing each one as an opportunity to expand my skills and knowledge.
           Adaptable and always eager to learn, I navigate the dynamic landscape of technology with enthusiasm. My
@@ -81,21 +86,28 @@ export default function Home() {
 
       {/* project section */}
       <div
-        className="flex min-h-screen flex-col items-start justify-start p-24 bg-offwhite text-offgrey font-lemurmure text-[15vh] leading-3"
+        className="flex min-h-screen flex-col items-start justify-start sm:p-24 pt-24 pl-2 bg-offwhite text-offgrey font-lemurmure sm:text-[15vh] text-[6vh] leading-3"
         id="projects"
       >
-        <div className="flex items-center border-t-2 border-b-2 border-offblack h-[20vh] w-full pl-20 pb-5">
+        <div className="flex items-center border-t-2 border-b-2 border-offblack h-[20vh] sm:w-full w-[95vw] sm:pl-20 pl-5 pb-5 hover:bg-offblack hover:text-offwhite">
           fullstack developer
         </div>
-        <div className="flex items-center border-b-2 border-offblack h-[20vh] w-full pl-20 pb-5">software engineer</div>
-        <div className="flex items-center border-b-2 border-offblack h-[20vh] w-full pl-20 pb-5">
+        <div className="flex items-center border-b-2 border-offblack h-[20vh] sm:w-full w-[95vw] sm:pl-20 pl-5 pb-5 hover:bg-offblack hover:text-offwhite">
+          software engineer
+        </div>
+        <div className="flex items-center border-b-2 border-offblack h-[20vh] sm:w-full w-[95vw] sm:pl-20 pl-5 pb-5 hover:bg-offblack hover:text-offwhite">
           front-end developer
         </div>
-        <div className="flex items-center border-b-2 border-offblack h-[20vh] w-full pl-20 pb-5">personal project</div>
+        <div className="flex items-center border-b-2 border-offblack h-[20vh] sm:w-full w-[95vw] sm:pl-20 pl-5 pb-5 hover:bg-offblack hover:text-offwhite">
+          personal project
+        </div>
       </div>
 
       {/* contact section */}
-      <div className="flex min-h-screen flex-col items-start justify-end px-24 bg-offwhite text-offblack" id="contact">
+      <div
+        className="flex min-h-screen flex-col items-start justify-end sm:px-24 px-2 bg-offwhite text-offblack"
+        id="contact"
+      >
         <div className="h-[55vh] w-full flex flex-col justify-end items-start pb-5 font-roboto text-sm">
           <div className="text-sm uppercase">
             <div>baton rouge, la → {cst.toLocaleTimeString()}</div>
@@ -104,13 +116,13 @@ export default function Home() {
             </div>
           </div>
           <ul className="flex justify-between items-end w-full h-[10vh]">
-            <li className="hover:text-purple-500 cursor-pointer">[linkedin]</li>
-            <li className="hover:text-purple-500 cursor-pointer">[github]</li>
-            <li className="hover:text-purple-500 cursor-pointer">[phone]</li>
-            <li className="hover:text-purple-500 cursor-pointer">[email]</li>
+            <li className="hover:bg-offblack hover:text-offwhite cursor-pointer">[linkedin]</li>
+            <li className="hover:bg-offblack hover:text-offwhite cursor-pointer">[github]</li>
+            <li className="hover:bg-offblack hover:text-offwhite cursor-pointer">[phone]</li>
+            <li className="hover:bg-offblack hover:text-offwhite cursor-pointer">[email]</li>
           </ul>
         </div>
-        <div className="h-[45vh] bg-offblack w-full rounded-t-[20px] font-lemurmure leading-3 text-[40vh] text-offwhite flex justify-center items-center overflow-hidden">
+        <div className="h-[45vh] bg-offblack w-full rounded-t-[20px] font-lemurmure leading-3 sm:text-[40vh] text-[12vh] text-offwhite flex justify-center items-center overflow-hidden">
           <div>lets connect</div>
         </div>
       </div>
