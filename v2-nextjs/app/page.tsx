@@ -71,11 +71,11 @@ export default function Home() {
 
       {/* about section */}
       <div
-        className="flex min-h-screen flex-col items-start justify-start sm:px-24 pl-2 bg-offwhite text-offblack"
+        className="flex min-h-screen flex-col items-start justify-start sm:pt-10 sm:px-24 pl-2 bg-offwhite text-offblack"
         id="about"
       >
-        <div className="font-lemurmure sm:text-[400px] text-[18vh] leading-[18vh] mt-24">about</div>
-        <p className="font-roboto sm:text-xl sm:tracking-widest tracking-[3px] sm:w-[75%] w-[90vw] sm:mt-20 mt-10 text-offgrey">
+        <div className="font-lemurmure sm:text-[400px] text-[18vh] leading-[18vh] mt-24 xl:mt-40">about</div>
+        <p className="font-roboto sm:text-xl sm:tracking-widest tracking-[3px] sm:w-[75%] w-[90vw] sm:mt-48 mt-10 text-offgrey">
           I'm a software engineer driven by a passion for innovation and problem-solving. With a growth mindset as my
           compass, I thrive on challenges, viewing each one as an opportunity to expand my skills and knowledge.
           Adaptable and always eager to learn, I navigate the dynamic landscape of technology with enthusiasm. My
