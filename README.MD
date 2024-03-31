@@ -7,6 +7,8 @@ This portfolio website was initially prototyped in Figma and later implemented u
 https://practice-site-6f503d.webflow.io/
 https://abby-morgan-portfolio.vercel.app/
 
+https://www.figma.com/file/GcUVy9ijmFVYOoPf9wThRn/abby-morgan-portfolio-update?type=design&node-id=0%3A1&mode=design&t=9XaAjp1fUKQKMCNG-1
+
 ## Features
 
 - Responsive design for various devices.
