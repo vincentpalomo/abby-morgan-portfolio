@@ -2,12 +2,19 @@
 
 This portfolio website was initially prototyped in Figma and later implemented using Webflow. Subsequently, it was recreated using Next.js to match the Figma prototype closely. The website employs GSAP for smooth animations on scrolling.
 
-### links
+## Links
 
-https://practice-site-6f503d.webflow.io/
-https://abby-morgan-portfolio.vercel.app/
+_webflow_
 
-https://www.figma.com/file/GcUVy9ijmFVYOoPf9wThRn/abby-morgan-portfolio-update?type=design&node-id=0%3A1&mode=design&t=9XaAjp1fUKQKMCNG-1
+> https://practice-site-6f503d.webflow.io/
+
+_nextjs_
+
+> https://abby-morgan-portfolio.vercel.app/
+
+_figma_
+
+> https://www.figma.com/file/GcUVy9ijmFVYOoPf9wThRn/abby-morgan-portfolio-update?type=design&node-id=0%3A1&mode=design&t=9XaAjp1fUKQKMCNG-1
 
 ## Features
 
