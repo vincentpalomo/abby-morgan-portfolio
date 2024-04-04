@@ -10,7 +10,7 @@ _webflow_
 
 _nextjs_
 
-> https://abby-morgan-portfolio.vercel.app/
+> https://abbymorgan.vercel.app/
 
 _figma_
 
