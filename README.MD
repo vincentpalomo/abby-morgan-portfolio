@@ -34,7 +34,8 @@ _figma_
 
 ![Placeholder Image 1](./images/figma-main.PNG)
 ![Placeholder Image 2](./images/figma-prototype.PNG)
-![Placeholder Image 3](./images/figma-full.PNG)
+
+<!-- ![Placeholder Image 3](./images/figma-full.PNG) -->
 
 ## Usage
 
